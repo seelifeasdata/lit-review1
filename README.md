@@ -95,7 +95,7 @@ In each case the authors report the performance of the baseline classification a
 The authors compare to the baseline algorithm, because it measures how much the proposed segmentation has contributed to the improvement in classification performance.
 The authors measure the performance on the large-scale 578-category flower dataset
 
-## Oxford 102 flower species dataset
+## [Oxford 102 flower species dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
 Oxford 102 flowers dataset is a well-known dataset for fine-grained recognition proposed by Nilsback and Zisserman [17].
 The dataset contains 102 species of flowers and a total of 8189 images, each category containing between 40 and 200 images.
 It has well established protocols for training and testing, which the authors adopt too.
@@ -117,7 +117,7 @@ In this case the authors observed 17.5% classification rate compared to previous
 Another thing to notice here is that the improvement over the baseline, when no bounding boxes information is known, is larger than the improvement with bounding boxes.
 This underlines the importance of the proposed automatic detection and segmentation of the object, which allows to ‘zoom in’ on the object, especially for largescale datasets for which providing bounding boxes or other ground truth information will be infeasible
 
-## Oxford Cats and Dogs dataset
+## [Oxford Cats and Dogs dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 
 Oxford Cats and Dogs  is a new dataset for fine-grained classification which contains 6033 images of 37 breeds of cats and dogs.
 Parkhi et al, who collected the dataset, showed impressive performance on this dataset.
