@@ -103,7 +103,7 @@ A lot of methods have been tested on this dataset, including some segmentation-b
 The performance of the approach on this dataset is 80.66%, which outperforms all previous known methods in the literature.
 One important thing to note is that the improvement of the algorithm over the baseline is about 4%, and the only difference between the two is the addition of the proposed segmentation algorithm and the features extracted from the segmented image
 
-## ![Caltech-UCSD 200 birds species dataset](https://authors.library.caltech.edu/records/cvm3y-5hh21)
+## [Caltech-UCSD 200 birds species dataset](https://authors.library.caltech.edu/records/cvm3y-5hh21)
 
 Caltech-UCSD-200 Birds dataset is a very challenging dataset containing 200 species of birds.
 Apart from very fine-differences between different species of birds, what makes the recognition hard in this dataset is the variety of poses, large variability in scales, and very rich backgrounds in which the birds often blend in.
