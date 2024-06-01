@@ -66,7 +66,7 @@ Let Ij denote the j-th pixel in an image and fj denotes its feature representati
 The authors set fi to be the (R,G,B) color values of the pixel, mostly motivated by speed of computation, but other choices are possible too.
 Djj i=1 where Dii = j=1 N W ij and Y are the desired labels for some the pixels
 Those label constraints can be very useful to impose prior knowledge of what is an object and background.
-This is a standard Laplacian label propagation formulation [28], and the equation above is often written in an equivalent and more convenient form: C(X) = XT (I − S)X + λ|X − Y |2.
+This is a standard Laplacian label propagation formulation, and the equation above is often written in an equivalent and more convenient form: C(X) = XT (I − S)X + λ|X − Y |2.
 
 ![alt text](https://github.com/seelifeasdata/lit-review1/blob/main/images/lp7.png)
 
@@ -123,7 +123,7 @@ Oxford Cats and Dogs  is a new dataset for fine-grained classification which con
 Parkhi et al, who collected the dataset, showed impressive performance on this dataset.
 They apply segmentation at test time, as is done here, but their algorithm is based on Grabcut , The authors' baseline Chai, Bicos segmentation  Chai, BicosMT segmentation  Ours Ours, improvement over the baseline.
 The authors compared the performance on this dataset with the prespecified protocol proposed in the paper (Table 4)
-For this dataset too, the authors see that the general method outperforms the best category-specific one from [20] and is far better than their more general approach or a bag of words-based method.
+For this dataset too, the authors see that the general method outperforms the best category-specific one from them  and is far better than their more general approach or a bag of words-based method.
 Note that they reported classification when using cat and dog head annotations or ground truth segmentation during testing, whereas here the experiments do not use such information.
 
 ## Large-scale 578 flower species dataset
