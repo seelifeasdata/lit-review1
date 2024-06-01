@@ -1,6 +1,6 @@
 
 
-![logo](https://giseelifeasdata/lit-review1/blob/main/images/logo.gif)
+![logo](https://github.com/seelifeasdata/lit-review1/blob/main/images/logo.gif)
 
 
 # Project Title
